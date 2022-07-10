@@ -90,6 +90,21 @@ const Layout = ({ location, title, children }) => {
             alt="Subscribe on Android"
           />
         </OutboundLink>
+        <OutboundLink
+          target="_blank"
+          href="https://www.youtube.com/playlist?list=PL43voGd638jQ4iQHJswhVhwlu9fSnmAQN"
+          title="Youtube"
+          rel="noreferrer"
+        >
+          <StaticImage
+            formats={["AUTO", "WEBP", "AVIF"]}
+            src="../images/youtube.svg"
+            width={50}
+            height={50}
+            quality={95}
+            alt="Youtube"
+          />
+        </OutboundLink>
       </p>
       <MDXProvider components={shortcodes}>{children}</MDXProvider>
       <footer>

@@ -90,3 +90,4 @@ tags
 [._]*.un~
 
 .idea/
+.history/
