@@ -1,0 +1,15 @@
+{% extends "base.peb" %}
+{% block content %}
+
+    {% if content.title is not null %}
+    <div class="page-header">
+        <h1>{{ content.title }}</h1>
+    </div>
+    {% endif %}
+
+<p><em>{{ content.date | date("dd MMMM yyyy") }}</em></p>
+
+{% autoescape false %}
+{{ content.body }}
+{% endautoescape %}
+{% endblock %}

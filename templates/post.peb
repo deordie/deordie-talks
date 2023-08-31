@@ -1,0 +1,45 @@
+{% extends "base.peb" %}
+{% block content %}
+    {% if content.title is not null %}
+    <hgroup>
+        <h2>{{ content.title }}</h2>
+        {% if content.subtitle is not null %}
+            <h3>{{ content.subtitle }}</h3>
+        {% endif %}
+    </hgroup>
+    {% endif %}
+
+
+<p><em>{{ content.date | date("dd MMMM yyyy") }}</em></p>
+{% autoescape false %}
+{{ content.body }}
+{% endautoescape %}
+
+
+<div id="player"></div>
+{% if content.url is not null %}
+<script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"
+        integrity="sha256-S0lp+k7zWUMk2ixteM6HZvu8L9Eh//OVrt+ZfbCpmgY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"
+        integrity="sha256-IXWO0ITNDjfnNXIu5POVfqlgYoop36bDzhodR6LW5Pc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-jinke-music-player@4.24.2/dist/react-jinke-music-player.min.js"
+        integrity="sha256-YvTRhTUzNCtppVY58+xB2PesIxqtR2AHlGi0DIsX7bk=" crossorigin="anonymous"></script>
+<script>
+    ReactDOM.render(
+            React.createElement(ReactJkMusicPlayer, {
+                "showMediaSession": true,
+                "mode": "full",
+                "autoPlay": true,
+                "audioLists": [{
+                    name: "{{ content.title }}",
+                    musicSrc: "{{ content.url }}",
+                    cover: "https://raw.githubusercontent.com/deordie/deordie-talks/main/src/images/deordie-icon_upscaled.png",
+                    singer: "DE or DIE",
+                }]
+            }),
+            document.getElementById('player'),
+    )
+</script>
+{% endif %}
+{% endblock %}
+

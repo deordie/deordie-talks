@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>{% if content.title is null %}DE or DIE: Talks{% else %}{{ content.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/react-jinke-music-player@4.24.2/assets/index.min.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+<main class="container">
+    <a href="/"><h1>DE or DIE: Talks</h1></a>
+    {% block content %} {% endblock %}
+</main>
+</body>
+</html>

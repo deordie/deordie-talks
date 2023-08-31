@@ -1,0 +1,49 @@
+{% extends "base.peb" %}
+{% block content %}
+
+    <h1>
+        <a target="_blank" href="https://talks.deordie.org/rss.xml" role="button" data-tooltip="RSS"
+           class="secondary outline">
+            <span class="iconify" data-icon="simple-icons:rss" style="font-size: 48px;"></span>
+        </a>
+        <a target="_blank" href="https://podcasts.apple.com/us/podcast/de-or-die-talks/id1577026407" role="button"
+           data-tooltip="Apple Podcasts" class="secondary outline">
+            <span class="iconify" data-icon="simple-icons:applepodcasts" style="font-size: 48px;"></span>
+        </a>
+        <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly90YWxrcy5kZW9yZGllLm9yZy9yc3MueG1s"
+           role="button" data-tooltip="Google Podcasts" class="secondary outline">
+            <span class="iconify" data-icon="simple-icons:googlepodcasts" style="font-size: 48px;"></span>
+        </a>
+        <a target="_blank" href="https://www.subscribeonandroid.com/talks.deordie.org/rss.xml" role="button"
+           data-tooltip="Subscribe on Android" class="secondary outline">
+            <span class="iconify" data-icon="simple-icons:android" style="font-size: 48px;"></span>
+        </a>
+        <a target="_blank" href="https://www.youtube.com/playlist?list=PL43voGd638jQ4iQHJswhVhwlu9fSnmAQN" role="button"
+           data-tooltip="YouTube Channel" class="secondary outline">
+            <span class="iconify" data-icon="simple-icons:youtube" style="font-size: 48px;"></span>
+        </a>
+    </h1>
+
+    <span><img src="https://user-images.githubusercontent.com/408149/113920628-af5bbb80-97ed-11eb-91df-523cf5d27254.png" alt="logo" style="height: 64px; width: 64px;">
+        Written by DE or DIE <a target="_blank" href="https://twitter.com/_deordie">Follow us on Twitter!</a></span>
+    <hr/>
+
+    {% for post in posts %}
+        {% if post.status == "published" %}
+        <hgroup>
+            <h2><a href="{{ post.uri }}" class="secondary">{{ post.title }}</a></h2>
+            <h6>{{ post.date | date("dd MMMM yyyy") }}</h6>
+        </hgroup>
+        {% autoescape false %}
+        {{ post.body }}
+        {% endautoescape %}
+
+        {% endif %}
+    {% endfor %}
+
+    <hr/>
+
+    <p>Older posts are available in the <a href="{{ content.root_path }}{{ config.archive_file }}">archive</a>.</p>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+{% endblock %}

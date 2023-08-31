@@ -1,0 +1,25 @@
+{% extends "base.peb" %}
+{% block content %}
+{% set last_month = "" %}
+
+<h1>Blog Archive</h1>
+{% for post in published_posts %}
+    {% if loop.first %}
+        {% set last_month = post.date|date("MMMM yyyy") %}
+        <h4>{{ post.date | date("MMMM yyyy") }}</h4>
+        <ul>
+    {% endif %}
+    {% if not (last_month == post.date|date("MMMM yyyy")) %}
+        </ul>
+        <h4>{{ post.date | date("MMMM yyyy") }}</h4>
+        <ul>
+    {% endif %}
+    <li>{{ post.date | date("dd") }} - <a href="{{ content.rootpath }}{{ post.uri }}">{{ post.title }}</a></li>
+
+    {% set last_month = post.date|date("MMMM yyyy") %}
+    {% if loop.last %}
+        </ul>
+    {% endif %}
+{% endfor %}
+
+{% endblock %}
