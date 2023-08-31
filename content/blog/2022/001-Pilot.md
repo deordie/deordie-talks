@@ -10,7 +10,6 @@ size=42331323
 duration=2645
 subtitle=data quality
 description=Пилотный выпуск подкаста DE or DIE
-excerpt=Пилотный выпуск подкаста DE or DIE. Здесь мы обсуждаем статью и видео по мотивам недавно прошедшего Data Quality Meetup #4 из дайджеста #6. 1. Представляемся 2. Разговариваем про тестирование пайплайнов 3. Проблемы фейковых данных 4. Закономерности 5. Правила генерации 6. Опаздывающие данные 7. Lineage 8. Metadata Management 9. SmartData
 ---
 
 Здесь мы обсуждаем статью и видео по мотивам недавно прошедшего [Data Quality Meetup #4](https://www.datafold.com/blog/data-quality-meetup-4/) из [дайджеста #6](https://digest.deordie.org/06_Pipeline_vibes//)

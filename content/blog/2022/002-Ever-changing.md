@@ -10,7 +10,6 @@ size=46501301
 duration=2906
 subtitle=data quality
 description=Обсуждаем Hudi, Delta Lake, Iceberg и Kafka rebalance protocol 
-excerpt=Обсуждаем Hudi, Delta Lake, Iceberg и Kafka rebalance protocol По мотивам дайджеста #7 • Hudi, Iceberg and Delta Lake=Data Lake Table Formats Compared • Apache Kafka Rebalance Protocol, or the magic behind your streams applications • Big Data World, Part 4=Architecture
 ---
 
 По мотивам [дайджеста #7](https://digest.deordie.org/07_Late_arriving_digest/)
