@@ -47,6 +47,9 @@
         <dc:creator><![CDATA[Pasha Finkelshteyn]]></dc:creator>
         <enclosure url="${post.url}" length="0" type="audio/mpeg"/>
         <content:encoded/>
+        <#list post.tags as tag>
+            <category>${tag}</category>
+        </#list>
         <itunes:explicit>no</itunes:explicit>
         <itunes:episodeType>full</itunes:episodeType>
         <itunes:title><#escape x as x?xml>${post.title}</#escape></itunes:title>

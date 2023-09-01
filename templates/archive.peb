@@ -1,6 +1,5 @@
 {% extends "base.peb" %}
 {% block content %}
-{% set last_month = "" %}
 
 <h1>Blog Archive</h1>
 {% for post in published_posts %}

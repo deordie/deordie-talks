@@ -5,7 +5,7 @@ title=#005 Why Not Airflow
 slug=005-why-not-airflow
 date=2021-09-29
 url=https://asm0dey.ru/p/de-or-die-talks-005.mp3
-categories=- Data Engineering - Airflow - Orchestration - Data
+tags=Data Engineering, Airflow, Orchestration, Data
 subtitle=orchestration
 description=Выпуск про оркестрацию
 ---

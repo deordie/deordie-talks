@@ -5,7 +5,7 @@ title=#009 State of Data Engineering 2022
 slug=009-State of Data Engineering 2022
 date=2022-07-06
 url=https://asm0dey.ru/p/de-or-die-talks-009.mp3
-tags=Data Engineering,Stack,lakeFS,landscape
+tags=Data Engineering, Stack, lakeFS, landscape
 subtitle=landscape
 description=State of Data Engineering 2022
 ---

@@ -2,28 +2,26 @@
 {% block content %}
 {% set last_month=null %}
 
-<div class="page-header">
-    <h1>Tag: {{ tag }}</h1>
-</div>
+<h1>Tag: {{ tag }}</h1>
 
-{#<ul>#}
 {% for post in tag_posts %}
-    {% if last_month is not null %}
-        {% if post.date | date("MMMM yyyy") is not last_month %}
-        </ul>
-        <h4>{{ post.date | date("MMMM yyyy") }}</h4>
-        <ul>
-        {% endif %}
-    {% else %}
-        <h4>{{ post.date | date("MMMM yyyy") }}</h4>
+    {% if loop.first %}
+        {% set last_month = post.date|date("MMMM yyyy") %}
+    <h4>{{ post.date | date("MMMM yyyy") }}</h4>
     <ul>
-    {%endif%}
-    <li>{{ post.date | date("dd") }} - <a href="${content.rootpath}${post.uri}">{{ post.title }}</a></li>
-    {% set last_month=post.date|date("MMMM yyyy") %}
+    {% endif %}
+    {% if not (last_month == post.date|date("MMMM yyyy")) %}
+    </ul>
+    <h4>{{ post.date | date("MMMM yyyy") }}</h4>
+    <ul>
+    {% endif %}
+    <li>{{ post.date | date("dd") }} - <a href="{{ content.rootpath }}{{ post.uri }}">{{ post.title }}</a></li>
 
+    {% set last_month = post.date|date("MMMM yyyy") %}
+    {% if loop.last %}
+    </ul>
+    {% endif %}
 {% endfor %}
-
-</ul>
 
 {% endblock %}
 

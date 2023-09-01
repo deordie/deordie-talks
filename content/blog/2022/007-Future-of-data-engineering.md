@@ -5,7 +5,7 @@ title=#007 Future of Data Engineering
 slug=007-Future-of-data-engineering
 date=2021-11-24
 url=https://asm0dey.ru/p/de-or-die-talks-007.mp3
-categories=GreenPlum, Data Engineering
+tags=GreenPlum, Data Engineering
 subtitle=Future of Data Engineering
 description=Выпуск о том, как развивается дата инжиниринг и что ждёт дата инжинеров в будущем
 ---
