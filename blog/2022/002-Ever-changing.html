@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>#002 Ever Changing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/react-jinke-music-player@4.24.2/assets/index.min.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+<main class="container">
+    <a href="/"><h1>DE or DIE: Talks</h1></a>
+            <hgroup>
+        <h2>#002 Ever Changing</h2>
+                    <h3>data quality</h3>
+            </hgroup>
+    
+
+<p><em>28 July 2021</em></p>
+<p>По мотивам <a href="https://digest.deordie.org/07_Late_arriving_digest/">дайджеста #7</a></p>
+<ul>
+<li><a href="https://lakefs.io/hudi-iceberg-and-delta-lake-data-lake-table-formats-compared/">Hudi, Iceberg and Delta Lake: Data Lake Table Formats Compared</a></li>
+<li><a href="https://medium.com/streamthoughts/apache-kafka-rebalance-protocol-or-the-magic-behind-your-streams-applications-e94baf68e4f2">Apache Kafka Rebalance Protocol, or the magic behind your streams applications</a></li>
+<li><a href="https://lakefs.io/hudi-iceberg-and-delta-lake-data-lake-table-formats-compared/">Big Data World, Part 4: Architecture</a></li>
+</ul>
+
+
+<div id="player"></div>
+<script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"
+        integrity="sha256-S0lp+k7zWUMk2ixteM6HZvu8L9Eh//OVrt+ZfbCpmgY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"
+        integrity="sha256-IXWO0ITNDjfnNXIu5POVfqlgYoop36bDzhodR6LW5Pc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-jinke-music-player@4.24.2/dist/react-jinke-music-player.min.js"
+        integrity="sha256-YvTRhTUzNCtppVY58+xB2PesIxqtR2AHlGi0DIsX7bk=" crossorigin="anonymous"></script>
+<script>
+    ReactDOM.render(
+            React.createElement(ReactJkMusicPlayer, {
+                "showMediaSession": true,
+                "mode": "full",
+                "autoPlay": true,
+                "audioLists": [{
+                    name: "#002 Ever Changing",
+                    musicSrc: "https://asm0dey.ru/p/de-or-die-talks-002.mp3",
+                    cover: "https://raw.githubusercontent.com/deordie/deordie-talks/main/src/images/deordie-icon_upscaled.png",
+                    singer: "DE or DIE",
+                }]
+            }),
+            document.getElementById('player'),
+    )
+</script>
+</main>
+</body>
+</html>

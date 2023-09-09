@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>#006 Smartdata Edition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/react-jinke-music-player@4.24.2/assets/index.min.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+<main class="container">
+    <a href="/"><h1>DE or DIE: Talks</h1></a>
+            <hgroup>
+        <h2>#006 Smartdata Edition</h2>
+                    <h3>smartdata</h3>
+            </hgroup>
+    
+
+<p><em>22 October 2021</em></p>
+<p>Разговариаем про всякое — и про худи, и про DWH, и про DataLake, и про C# с LINQ'ом</p>
+
+
+<div id="player"></div>
+<script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"
+        integrity="sha256-S0lp+k7zWUMk2ixteM6HZvu8L9Eh//OVrt+ZfbCpmgY=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"
+        integrity="sha256-IXWO0ITNDjfnNXIu5POVfqlgYoop36bDzhodR6LW5Pc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/react-jinke-music-player@4.24.2/dist/react-jinke-music-player.min.js"
+        integrity="sha256-YvTRhTUzNCtppVY58+xB2PesIxqtR2AHlGi0DIsX7bk=" crossorigin="anonymous"></script>
+<script>
+    ReactDOM.render(
+            React.createElement(ReactJkMusicPlayer, {
+                "showMediaSession": true,
+                "mode": "full",
+                "autoPlay": true,
+                "audioLists": [{
+                    name: "#006 Smartdata Edition",
+                    musicSrc: "https://asm0dey.ru/p/de-or-die-talks-006.mp3",
+                    cover: "https://raw.githubusercontent.com/deordie/deordie-talks/main/src/images/deordie-icon_upscaled.png",
+                    singer: "DE or DIE",
+                }]
+            }),
+            document.getElementById('player'),
+    )
+</script>
+</main>
+</body>
+</html>
