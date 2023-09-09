@@ -14,8 +14,8 @@
       <link>https://talks.deordie.org</link>
     </image>
     <generator>jbake</generator>
-    <pubDate>Sat, 9 Sep 2023 10:33:59 +0000</pubDate>
-    <lastBuildDate>Sat, 9 Sep 2023 10:33:59 +0000</lastBuildDate>
+    <pubDate>Sat, 9 Sep 2023 11:32:55 +0000</pubDate>
+    <lastBuildDate>Sat, 9 Sep 2023 11:32:55 +0000</lastBuildDate>
     <copyright><![CDATA[2021 DE or DIE]]></copyright>
     <language><![CDATA[ru]]></language>
     <managingEditor><![CDATA[Pasha Finkelshteyn]]></managingEditor>
@@ -141,9 +141,9 @@
       </item>
       <item>
         <title>#007.5 Modern Data Stack</title>
-        <link>https://talks.deordie.org/blog/2022/007.5.html</link>
+        <link>https://talks.deordie.org/blog/2021/007.5.html</link>
         <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/007.5.html</guid>
+        <guid isPermaLink="false">blog/2021/007.5.html</guid>
         <description>
             &lt;p&gt;Здесь мы обсуждаем статью &lt;a href=&quot;https://preset.io/blog/reshaping-data-engineering/&quot;&gt;How The Modern Data Stack Is Reshaping Data Engineering&lt;/a&gt; из &lt;a href=&quot;https://digest.deordie.org/15_The_good_the_bad_the_ugly_and_AWS/&quot;&gt;дайджеста #15&lt;/a&gt;&lt;/p&gt;
 
@@ -167,9 +167,9 @@
       </item>
       <item>
         <title>#007 Future of Data Engineering</title>
-        <link>https://talks.deordie.org/blog/2022/007-Future-of-data-engineering.html</link>
+        <link>https://talks.deordie.org/blog/2021/007-Future-of-data-engineering.html</link>
         <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/007-Future-of-data-engineering.html</guid>
+        <guid isPermaLink="false">blog/2021/007-Future-of-data-engineering.html</guid>
         <description>
             &lt;p&gt;Здесь мы обсуждаем статью &lt;a href=&quot;https://towardsdatascience.com/the-future-of-the-data-engineer-4dcfa53800ab/&quot;&gt;The Future of the Data Engineer&lt;/a&gt; из &lt;a href=&quot;https://digest.deordie.org/14_NullPointerException/&quot;&gt;дайджеста #14&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -198,9 +198,9 @@
       </item>
       <item>
         <title>#006 Smartdata Edition</title>
-        <link>https://talks.deordie.org/blog/2022/006-Smartdata-edition.html</link>
+        <link>https://talks.deordie.org/blog/2021/006-Smartdata-edition.html</link>
         <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/006-Smartdata-edition.html</guid>
+        <guid isPermaLink="false">blog/2021/006-Smartdata-edition.html</guid>
         <description>
             &lt;p&gt;Разговариаем про всякое — и про худи, и про DWH, и про DataLake, и про C# с LINQ&apos;ом&lt;/p&gt;
 
@@ -223,9 +223,9 @@
       </item>
       <item>
         <title>#005 Why Not Airflow</title>
-        <link>https://talks.deordie.org/blog/2022/005-Why-not-Airflow.html</link>
+        <link>https://talks.deordie.org/blog/2021/005-Why-not-Airflow.html</link>
         <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/005-Why-not-Airflow.html</guid>
+        <guid isPermaLink="false">blog/2021/005-Why-not-Airflow.html</guid>
         <description>
             &lt;p&gt;Здесь мы обсуждаем статью &lt;a href=&quot;https://towardsdatascience.com/why-you-should-try-something-else-than-airflow-for-data-pipeline-orchestration-7a0a2c91c341/&quot;&gt;Why you should try something else than Airflow for data pipeline orchestration&lt;/a&gt; из &lt;a href=&quot;https://digest.deordie.org/12_Become_an_open_source_star/&quot;&gt;дайджеста #12&lt;/a&gt;&lt;/p&gt;
 
@@ -250,9 +250,9 @@
       </item>
       <item>
         <title>#004 Lineage</title>
-        <link>https://talks.deordie.org/blog/2022/004-Lineage.html</link>
+        <link>https://talks.deordie.org/blog/2021/004-Lineage.html</link>
         <pubDate>Wed, 1 Sep 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/004-Lineage.html</guid>
+        <guid isPermaLink="false">blog/2021/004-Lineage.html</guid>
         <description>
             &lt;p&gt;Здесь мы обсуждаем статью &lt;a href=&quot;https://slack.engineering/data-lineage-at-slack/&quot;&gt;4 Things You Need to Know When Solving for Data Quality&lt;/a&gt; из &lt;a href=&quot;https://digest.deordie.org/10_Slack_time/&quot;&gt;дайджеста #10&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;К нам присоединяется Сергей Ярымов, вместе с которым мы говорим про лайнэйдж, зачем он нежен, кто как его делает и, в частности, как его делает Slack.&lt;/p&gt;
@@ -279,9 +279,9 @@
       </item>
       <item>
         <title>#003 Qualified</title>
-        <link>https://talks.deordie.org/blog/2022/003-Qualified.html</link>
+        <link>https://talks.deordie.org/blog/2021/003-Qualified.html</link>
         <pubDate>Sat, 7 Aug 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/003-Qualified.html</guid>
+        <guid isPermaLink="false">blog/2021/003-Qualified.html</guid>
         <description>
             &lt;p&gt;Здесь мы обсуждаем статью &lt;a href=&quot;https://towardsdatascience.com/4-things-you-need-to-know-when-solving-for-data-quality-4abf6d31b2c9&quot;&gt;4 Things You Need to Know When Solving for Data Quality&lt;/a&gt; из &lt;a href=&quot;https://digest.deordie.org/08_4_things_and_5_more_reasons/&quot;&gt;дайджеста #7&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;В целом обсуждаем TDD, тестирование данных и другие аспекты жизни дата инжинера, связанные с качеством&lt;/p&gt;
@@ -306,9 +306,9 @@
       </item>
       <item>
         <title>#002 Ever Changing</title>
-        <link>https://talks.deordie.org/blog/2022/002-Ever-changing.html</link>
+        <link>https://talks.deordie.org/blog/2021/002-Ever-changing.html</link>
         <pubDate>Wed, 28 Jul 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/002-Ever-changing.html</guid>
+        <guid isPermaLink="false">blog/2021/002-Ever-changing.html</guid>
         <description>
             &lt;p&gt;По мотивам &lt;a href=&quot;https://digest.deordie.org/07_Late_arriving_digest/&quot;&gt;дайджеста #7&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -341,9 +341,9 @@
       </item>
       <item>
         <title>#001 Pilot</title>
-        <link>https://talks.deordie.org/blog/2022/001-Pilot.html</link>
+        <link>https://talks.deordie.org/blog/2021/001-Pilot.html</link>
         <pubDate>Wed, 14 Jul 2021 00:00:00 +0000</pubDate>
-        <guid isPermaLink="false">blog/2022/001-Pilot.html</guid>
+        <guid isPermaLink="false">blog/2021/001-Pilot.html</guid>
         <description>
             &lt;p&gt;Здесь мы обсуждаем статью и видео по мотивам недавно прошедшего &lt;a href=&quot;https://www.datafold.com/blog/data-quality-meetup-4/&quot;&gt;Data Quality Meetup #4&lt;/a&gt; из &lt;a href=&quot;https://digest.deordie.org/06_Pipeline_vibes/&quot;&gt;дайджеста #6&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
